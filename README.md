@@ -51,6 +51,40 @@ Heart disease is one of the leading causes of death worldwide. The objective of 
 | XGBoost | 0.869 | 0.812 | 0.929 | 0.867 | 0.940 |
 | **Stacking Ensemble** | **0.902** | **0.844** | **0.964** | **0.900** | **0.958** |
 
+## Results
+
+### Heart Disease Class Distribution
+
+![Heart Disease Class Distribution](Results/Heart_Disease_Class_Distribution.png)
+
+### Correlation Matrix
+
+![Correlation Matrix](Results/Correlation_Matrix_of_Heart_Disease_Features.png)
+
+### Comparison of Evaluation Metrics Across Models
+
+![Model Comparison](Results/Comparison_of_Evaluation_Metrics_Across_Models.png)
+
+### Stacking Ensemble – Confusion Matrix
+
+![Confusion Matrix](Results/Confusion_Matrix___Stacking_Ensemble.png)
+
+### Stacking Ensemble – ROC Curve
+
+![ROC Curve](Results/ROC_Curve___Stacking_Ensemble.png)
+
+### Random Forest – Top 10 Important Features
+
+![Feature Importance](Results/Top_10_Important_Features___Random_Forest.png)
+
+### SHAP Summary Plot
+
+![SHAP Summary](Results/image_35.png)
+
+### SHAP Waterfall Plot
+
+![SHAP Waterfall](Results/image_37.png)
+
 ## Explainability
 
 SHAP was used to explain the final model.
